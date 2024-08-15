@@ -1,0 +1,4 @@
+Start + r (run)
+mmc /a
+add Certificates -> Computer account -> local computer
+Personal -> certificates and copy localhost certifiate to trusted root certificates
