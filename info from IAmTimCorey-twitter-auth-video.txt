@@ -1,0 +1,14 @@
+Create project asp.net web app (razor) + asp.net 6.0.
+Create page SecuredPage.
+Add some html content: <h1>Secured Page</h1><p>This is our secured page. You need to be logged in to see it.</p>
+Edit code behind file (cshtml.cs): add [Authorize] on the line above the class.
+Change / simplified name of database to TwitterAuthDemoDb in application.json.
+Ran the "update-database" commmand in the nuget console.
+SQL Server Object Explorer and check that the database has appeared under "local server -> Databases"
+Install nuget package: Microsoft.AspNetCore.Authenication.Twitter
+
+
+
+Source:
+Twitter Authentication in .NET 6 ASP.NET Core Web Applications - IAm TimCorey: https://www.youtube.com/watch?v=Us3NuoxOGDo&t=607s
+
